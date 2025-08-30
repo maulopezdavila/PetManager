@@ -51,7 +51,7 @@ if (mb_strlen($nombre) > 50) {
 }
 ?>
 
- Formulario en si 
+ <!--Formulario en si -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
