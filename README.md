@@ -6,7 +6,7 @@ DESARROLLO DE SOFTWARE
 
 Mi sistema de gestión de mascotas para un veterinaria en PHP para la prueba técnica. Básicamente, es una app web simple para gestionar mascotas en una vet pequeña: registrar mascotas, dueños, visitas médicas, editar, eliminar, buscar y exportar a CSV. Lo hice todo básico pero funcional, siguiendo las instrucciones de la prueba, que se enfoca en OOP, lógica, validaciones y documentación, sin complicaciones como bases de datos. Usé sesiones de PHP para guardar datos temporalmente, y un toque de localStorage en JS para backup local. Nada de DB porque la prueba no lo pide. Aunque en un contexto real evidentemente hubiera usado BD.
 
-Para probarlo, solo necesitas XAMPP o un server local.
+Para probarlo, solo necesitas XAMPP o un server local o usa este link: http://petmanager.zeabur.app/
 
 ## FUNCIONES:
 
@@ -21,12 +21,13 @@ Todo en PHP puro con OOP (clases para Mascota, Dueno, etc.). No DB porque, como 
 
 ## Instalación 
 
-1. **Descarga:** Clona o descarga este repo: https://github.com/maulopezdavila/SistemaGestionMascotas
-2. **Server local:** Ponla en `htdocs` de XAMPP (como sugiere la guía de la prueba). Arranca Apache.
-3. **Accede:** Abre `http://localhost/[el_nombre_de_la_carpeta_donde_pusiste_los_arhivos]/.
-4. **Regístrate:** Ve a `registro_usuario.php`, crea user (nombre min 3 chars, pass min 8).
-5. **Login:** En `iniciar_sesion.php`.
-6. **Y LISTO** Registra mascotas y las demás funcionalidades
+1. **Descarga:** Clona o descarga este repo: https://github.com/maulopezdavila/SistemaGestionMascotas o
+   abré el despliegue con este link: http://petmanager.zeabur.app/
+3. **Server local:** Ponla en `htdocs` de XAMPP (como sugiere la guía de la prueba). Arranca Apache.
+4. **Accede:** Abre `http://localhost/[el_nombre_de_la_carpeta_donde_pusiste_los_arhivos]/.
+5. **Regístrate:** Ve a `registro_usuario.php`, crea user (nombre min 3 chars, pass min 8).
+6. **Login:** En `iniciar_sesion.php`.
+7. **Y LISTO** Registra mascotas y las demás funcionalidades
 
 Nota: Sin DB. La prueba no pide persistencia, solo lógica y OOP, por eso lo dejé así. Para real, usaría PDO con MySQL.
 
